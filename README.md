@@ -1,4 +1,7 @@
+[![Java CI](https://github.com/enealulaj/SEW_TestingWithGit/actions/workflows/ci.yml/badge.svg)](https://github.com/enealulaj/SEW_TestingWithGit/actions/workflows/ci.yml)
+
 # Calculator Program
+
 
 This repository contains a simple Java-based calculator application. The application supports basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes unit tests to ensure the correctness of the implemented functionality.
 
