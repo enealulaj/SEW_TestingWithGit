@@ -18,12 +18,6 @@ A custom exception class to handle division by zero errors.
 ### 3. `CalculatorTest`
 Unit tests written using JUnit 5 to verify the correctness of the `Calculator` class methods. Each operation has corresponding test cases to validate expected behavior.
 
-## Prerequisites
-
-- Java 17 or later
-- Maven (for managing dependencies and running tests)
-- JUnit 5 (included in the `pom.xml` for testing)
-
 ## How to Run
 
 1. Clone the repository:
@@ -32,14 +26,19 @@ Unit tests written using JUnit 5 to verify the correctness of the `Calculator` c
    cd <repository-directory>
    ```
 
-2. Compile the program:
+2. Add all files to the repository
    ```bash
-   mvn compile
+   git add --all
    ```
 
-3. Run the tests:
+3. Commit your action
    ```bash
-   mvn test
+   git commit -m "Message"
+   ```
+   
+4. Push your data
+   ```bash
+   git push
    ```
 
 ## Example Usage
@@ -59,7 +58,3 @@ try {
     System.err.println("Cannot divide by zero!");
 }
 ```
-
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
